@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": {
-    "build":"node build.js"
-    }
+    "start": "node build.js",
     "test:unit": "jest --coverage",
     "test:onlychanged": "jest --onlyChanged --coverage",
     "test:markdown": "markdownlint . --ignore-path .gitignore",
